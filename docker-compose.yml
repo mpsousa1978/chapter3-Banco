@@ -27,6 +27,6 @@ services:
         depends_on:
             - database
 
-volumes:
+volumes: 
     pgdata:
         driver: local
